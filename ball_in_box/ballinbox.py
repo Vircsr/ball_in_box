@@ -20,7 +20,7 @@ def ball_in_box(m, blockers):
         x = 0
         y = 0
         i = 0
-        while i < 1000:
+        while i < 10000:
             rf = 2.0
             xf = random.random() * 2 - 1
             yf = random.random() * 2 - 1
